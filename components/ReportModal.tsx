@@ -48,7 +48,7 @@ export default function ReportModal() {
 
         <div style={{ padding: 32, display: 'flex', flexDirection: 'column', gap: 24 }}>
           {complete ? (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16, textAlign: 'center', py: 24 }}>
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16, textAlign: 'center', paddingTop: 24, paddingBottom: 24 }}>
               <div style={{ width: 64, height: 64, borderRadius: '50%', background: 'rgba(34,197,94,0.1)', color: 'var(--green-safe)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 32 }}>
                 ✓
               </div>
